@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <title>Sign in and sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form action="#" class="sign-in-form">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="User name" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    <a href="home.html">  
+                        <a href="home.html" ><input type="submit" class="btn solid" value="Login">..
+                        
+                </form>
+            </div>
+
+            <div class="signup-signup">
+                <form action="#" class="sign-up-form">
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="User name" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="AIT email" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Confirm Password" />
+                    </div>
+                    <input type="submit" class="btn solid" value="Login" />
+                    <p class="social-text">Or sign up directly by clicking here</p>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+
+
+                </form>
+            </div>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New here</h3>
+                    <p>Still not created an account, It was not late - click on sign up and enter your details to meet our family member of AIT </p>
+                    <button class="btn transparent" id="sign-up-button">Sign up</button>
+                </div>
+                <img src="sign-up-form.png" alt="" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us</h3>
+                    <p>Already created an account , cool !! , Just click on this sign in button and enter the username and password ...</p>
+                    <button class="btn transparent" id="sign-in-button">Sign in</button>
+                </div>
+                <img src="sign-in-form.png" alt="" class="image">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
